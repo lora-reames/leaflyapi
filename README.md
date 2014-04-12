@@ -1,5 +1,5 @@
 # Leaflyapi
-
+[![Coverage Status](https://coveralls.io/repos/patrickr/leaflyapi/badge.png)](https://coveralls.io/r/patrickr/leaflyapi)
 TODO: Write a gem description
 
 ## Installation
