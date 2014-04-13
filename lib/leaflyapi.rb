@@ -55,6 +55,5 @@ module Leaflyapi
 
   if $0 == __FILE__
   binding.pry
-  test = Strains.keys
   end
 end
