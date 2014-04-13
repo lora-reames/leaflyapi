@@ -1,6 +1,6 @@
 # Leaflyapi
 
-[![build status](https://secure.travis-ci.org/patrickr/leaflyapi.png)](http://travis-ci.org/patrickr/leaflyapi) [![Coverage Status](https://coveralls.io/repos/patrickr/leaflyapi/badge.png)](https://coveralls.io/r/patrickr/leaflyapi)
+[![build status](https://secure.travis-ci.org/patrickr/leaflyapi.png)](http://travis-ci.org/patrickr/leaflyapi) [![Coverage Status](https://coveralls.io/repos/patrickr/leaflyapi/badge.png?branch=master)](https://coveralls.io/r/patrickr/leaflyapi?branch=master)
 
 TODO: Write a gem description
 
