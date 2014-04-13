@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Leaflyapi::VERSION
   spec.authors       = ["Patrick Reames"]
   spec.email         = ["patrick.reames@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{ruby gem for interacting with the leafly.com API}
+  spec.description   = %q{get strains and strain details from leafly.com}
   spec.homepage      = ""
   spec.license       = "MIT"
 

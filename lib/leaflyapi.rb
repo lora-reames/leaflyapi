@@ -1,7 +1,6 @@
 require "leaflyapi/version"
 require "httparty"
 require "json"
-require 'pry'
 
 module Leaflyapi
   class Strains
@@ -52,8 +51,4 @@ module Leaflyapi
       @reviews = data["Reviews"]
     end
   end
-
-  # if $0 == __FILE__
-  # binding.pry
-  # end
 end
