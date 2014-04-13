@@ -16,15 +16,17 @@ describe Leaflyapi do
       end
     end
     describe '.find_by_key(key)' do
-      it "returns a single strain by its key" do
+      it "returns a strain by its key" do
         strain = Leaflyapi::Strains.find_by_key("girl-scout-cookie")
         expect(strain).to be_a Object
         expect(strain.key).to eq 'girl-scout-cookie'
       end
     end
     describe '.find_by_category(category)' do
-      it "some stuff" do
-        pending #code
+      it "returns a list of strains for a given category" do
+        strains = Leaflyapi::Strains.find_by_category("Indica")
+        expect(strains).to be_a Array
+        expect(strains.first).to be_a String
       end
     end
 end
