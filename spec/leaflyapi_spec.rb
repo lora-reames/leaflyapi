@@ -3,7 +3,6 @@ require 'spec_helper'
 describe Leaflyapi do
     describe '.all' do
         it "returns an array of strains" do
-            #pending # no code
             strains = Leaflyapi::Strains.all
             expect(strains).to be_a Array
         end

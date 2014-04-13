@@ -8,7 +8,7 @@ module Leaflyapi
     def self.all
       response = ::HTTParty.get("http://www.leafly.com/api/strains")
       strains_json = ::JSON.parse(response.body)
-      #strains_json.collect {|strain| new (strain)}
+      strains_json.collect {|strain| new (strain)}
     end
 
     def self.keys
