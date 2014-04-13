@@ -19,13 +19,23 @@ module Leaflyapi
       end
     end
 
+    def self.find_by_key(key)
+      response = ::HTTParty.get("http://www.leafly.com/api/details/#{key}")
+      strain_json = JSON.parse(response.body)
+      new (strain_json)
+    end
+    
+    attr_reader :key, :effects, :id, :name, :category,
+    :description, :symbol, :overview, :url,
+    :rating, :medical_uses, :side_effects, :reviews
+
     def initialize(data)
       @id = data["Id"]
       @key = data["Key"]
       @name = data["Name"]
       @category = data["Category"]
       @symbol = data["Symmbol"]
-      @abstract = data["Abstract"]
+      @description = data["Abstract"]
       @url = data["Url"]
       @rating = data["Rating"]
       @effects = data["Effects"]
