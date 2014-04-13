@@ -1,4 +1,4 @@
-#require "leaflyapi/version"
+require "leaflyapi/version"
 require "httparty"
 require "json"
 require 'pry'
@@ -53,7 +53,7 @@ module Leaflyapi
     end
   end
 
-  if $0 == __FILE__
-  binding.pry
-  end
+  # if $0 == __FILE__
+  # binding.pry
+  # end
 end
