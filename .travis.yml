@@ -4,7 +4,7 @@ cache: bundler
 rvm:
  - 1.9.3
 
-script: 'rake'
+script: 'bundle exec rake'
 
 notifications:
     email:
